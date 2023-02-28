@@ -23,9 +23,14 @@ module.exports = {
             glow: '0px 0px 15px 0px rgba(254,208,70,0.99)',
             glow2: '0px 0px 30px 0px rgba(254,208,70,0.99)',
             glowroad: '0px 0px 140px 45px rgba(254, 208, 70, 0.4)',
-            nav: '0px 85px 25px 0px rgba(1,1,1,0.79) inset'
-
+            nav: '0px 85px 25px 0px rgba(1,1,1,0.79) inset',
+            
         },
+
+        dropShadow: {
+            'util': '0px 0px 66px #FF0000',
+        },
+
         textShadow: {
             tshad: '0px 10px 2px #000000'
         },
