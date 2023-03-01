@@ -7,7 +7,7 @@ import { SiLinktree } from 'react-icons/si'
 
 const Footer = () => {
     return (
-        <section className='w-full h-[20rem] py-16 bg-black px-20 text-white relative'>
+        <section className='w-full h-[20rem] py-16 px-20 text-white relative'>
             <a href="#home" rel="no">
                 <img src="/logo.webp" alt="Logo" className="w-32 mx-auto cursor-pointer" />
             </a>
