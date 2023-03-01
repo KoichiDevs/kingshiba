@@ -8,6 +8,8 @@ import Utilities from './components/Utilities'
 
 import * as THREE from 'three'
 import BIRDS from 'vanta/dist/vanta.birds.min'
+import DOTS from 'vanta/dist/vanta.dots.min'
+
 
 
 const App = () => {
@@ -16,7 +18,7 @@ const App = () => {
 
     useEffect(() => {
         if (!vantaEffect) {
-            setVantaEffect(BIRDS({
+            setVantaEffect(DOTS({
                 el: myRef.current,
                 mouseControls: true,
                 touchControls: true,
@@ -25,9 +27,9 @@ const App = () => {
                 minWidth: 200.00,
                 scale: 1.00,
                 scaleMobile: 1.00,
+                showLines: false,
                 backgroundColor: 0x161616,
-                color1: 0xff3b00,
-                color2: 0x823838
+
 
             }))
         }
