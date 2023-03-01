@@ -53,8 +53,8 @@ const Hero = () => {
     }
 
     return (
-        <section className='w-full h-screen bg-gradient-to-b from-black to-myred flex items-center justify-center relative'>
-            <img src="/heroline.webp" alt="Line" className="absolute bottom-0 left-0 z-0" />
+        <section className='w-full h-screen flex items-center justify-center relative'>
+            {/* <img src="/heroline.webp" alt="Line" className="absolute bottom-0 left-0 z-0" /> */}
 
             <Nav />
             <div className='max-w-[1500px] w-full h-auto md:px-12 px-10 flex items-center justify-between relative z-10'>

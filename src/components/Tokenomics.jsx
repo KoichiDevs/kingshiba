@@ -19,9 +19,9 @@ const Tokenomics = () => {
     }
 
     return (
-        <section className='w-full min-h-screen py-32 bg-myred relative' id="tokenomics">
+        <section className='w-full min-h-screen py-32 relative' id="tokenomics">
 
-            <img src="/aboutline.webp" alt="Lines" className="absolute right-0 bottom-0" />
+            {/* <img src="/aboutline.webp" alt="Lines" className="absolute right-0 bottom-0" /> */}
 
             <div className="max-w-[1500px] w-full mx-auto px-10 relative z-10">
 
@@ -39,7 +39,7 @@ const Tokenomics = () => {
 
                 <div className="w-full gap-10 flex h-auto justify-center mx-auto mt-20 lg:max-w-[60rem] lg:flex-row flex-col max-w-[30rem]">
 
-                    <div className="hover:shadow-glow transition-all ease-in-out duration-300 rounded-lg drop-shadow-xl p-7 w-full mx-auto flex items-center bg-darkred">
+                    <div className="hover:shadow-glow transition-all ease-in-out duration-300 rounded-lg drop-shadow-xl p-7 w-full mx-auto flex items-center bg-black">
                         <div className="text-white font-saira text-4xl text-center mx-auto">
                             <h2 className="font-king">For Tax</h2>
                             <div className="mt-5 text-3xl">
@@ -48,7 +48,7 @@ const Tokenomics = () => {
                         </div>
                     </div>
 
-                    <div className="hover:shadow-glow transition-all ease-in-out duration-300 rounded-lg drop-shadow-xl p-7 w-full min-h-full mx-auto flex flex-col items-center gap-y-3 bg-darkred justify-center">
+                    <div className="hover:shadow-glow transition-all ease-in-out duration-300 rounded-lg drop-shadow-xl p-7 w-full min-h-full mx-auto flex flex-col items-center gap-y-3 bg-black justify-center">
                         <div className="text-white font-saira text-md text-center max-w-[15rem] sm:max-w-full">
                             <h2 className="truncate">{contractAddress}</h2>
                         </div>

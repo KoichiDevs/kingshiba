@@ -57,11 +57,11 @@ const Roadmap = () => {
     }
 
     return (
-        <section className='w-full h-auto py-20 bg-myred text-black relative flex items-center' id="roadmap">
+        <section className='w-full h-auto py-20  text-black relative flex items-center' id="roadmap">
 
-            <img src="/roadmapbg.webp" alt="roadmapbgb" className="absolute top-0 left-0 w-full h-full cover" />
+            {/* <img src="/roadmapbg.webp" alt="roadmapbgb" className="absolute top-0 left-0 w-full h-full cover" /> */}
 
-            <img src="/heroline.webp" alt="Line" className="absolute bottom-20 left-0 z-0 opacity-50" />
+            {/* <img src="/heroline.webp" alt="Line" className="absolute bottom-20 left-0 z-0 opacity-50" /> */}
 
             <div className="w-full max-w-[1500px] px-10 mx-auto relative z-10">
                 <div className="uppercase text-header font-king w-full lg:text-8xl md:text-7xl text-5xl flex items-center md:gap-x-10 gap-x-3 mx-auto">
@@ -77,7 +77,7 @@ const Roadmap = () => {
                             return (
                                 <div className={`h-auto bg-black ite flex flex-col items-center py-14 relative transition-all rounded-2xl ease-in-out duration-300 ${current === index ? " opacity-100 border-2 border-white bg-pattern" : "opacity-50"}`} key={index} style={current === index ? { flexGrow: "3" } : {}} onMouseEnter={() => { onEnter(index) }} onMouseLeave={onLeave}>
 
-                                    <FaCrown className='text-3xl text-header transition-all ease-in-out duration-300 shadow-glowroad bg-[#251e0a]' style={current === index ? { scale: "1" } : { scale: "0" }} />
+                                    <FaCrown className='text-3xl text-header transition-all ease-in-out duration-300 shadow-glowroad bg-[#493b14]' style={current === index ? { scale: "1" } : { scale: "0" }} />
                                     <div className={`font-king transition-all ease-in-out duration-300 ${current === index ? "text-3xl 2xl:text-4xl" : "text-sm"}`} >Phase {index + 1}</div>
                                     <div className='mt-6 flex flex-col gap-y-4 transition-all ease-in-out duration-300 origin-top font-poppins 2xl:text-xl' style={current === index ? { scale: "1" } : { scale: "0" }}>
                                         {items.label}

@@ -49,8 +49,8 @@ const Utilities = () => {
     const [lineRef, lineView] = useInView(options)
 
     return (
-        <section className='w-full h-auto py-32 bg-myred relative' id="utility">
-            <img src="/heroline.webp" alt="Line" className="absolute bottom-0 left-0 z-0" />
+        <section className='w-full h-auto py-32 relative' id="utility">
+            {/* <img src="/heroline.webp" alt="Line" className="absolute bottom-0 left-0 z-0" /> */}
 
             <div className="w-full max-w-[1600px] md:px-14 px-8 mx-auto">
 
