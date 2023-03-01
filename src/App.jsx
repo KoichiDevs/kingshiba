@@ -25,9 +25,13 @@ const App = () => {
                 minWidth: 200.00,
                 scale: 1.00,
                 scaleMobile: 1.00,
-                backgroundColor: 0x161616,
-                color1: 0xff3b00,
-                color2: 0x823838
+                color2: 0xfffe00,
+                birdSize: 0.70,
+                separation: 61.00,
+                alignment: 16.00,
+                cohesion: 3.00,
+                quantity: 4.00,
+                backgroundAlpha: 0.00
 
             }))
         }
