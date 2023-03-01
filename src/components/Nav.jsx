@@ -12,10 +12,15 @@ const Nav = () => {
         setActive(curr => !curr)
     }
 
-    const [scrollPosition, setScrollPosition] = useState(0);
+    const [scrolled, setScrollPosition] = useState(0);
+
     const handleScroll = () => {
         const position = window.pageYOffset;
-        setScrollPosition(position);
+        if (position >= 100) {
+            setScrollPosition(true);
+        } else {
+            setScrollPosition(false);
+        }
     };
 
     useEffect(() => {
@@ -28,13 +33,13 @@ const Nav = () => {
 
     return (
         <motion.nav initial={{ opacity: 0 }} animate={{ opacity: 100 }} transition={{ duration: 0.7 }} className='w-full h-auto lg:h-auto px-10 py-3 text-white fixed z-20 top-0 left-0'>
-            <div className="absolute w-full h-[120%] top-0 left-0 z-0 shadow-nav opacity-50 transition-all ease-in-out duration-300" style={ scrollPosition >= 100 ? {} : {opacity: "0%"}}></div>
+            <div className="absolute w-full h-[120%] top-0 left-0 z-0 shadow-nav opacity-70 transition-all ease-in-out duration-300" style={ scrolled ? {} : {opacity: "0%"}}></div>
             <div className="max-w-[1400px] w-full h-auto flex items-center justify-between mx-auto z-10 relative">
-                <a href="#home" className='flex items-center gap-x-2'>
+                <a href="#home" className='flex items-center gap-x-2 m-4 transition-all ease-in-out duration-300' style={ scrolled ? {margin: "0"} : {}}>
                     <img src="/logo.webp" alt="Logo" className="w-14 cursor-pointer" />
                 </a>
 
-                <ul className='items-center gap-x-12 flex lg:relative fixed right-0 lg:w-auto lg:h-auto w-full h-full top-0 justify-center lg:justify-start flex-col lg:flex-row bg-[#111111] lg:bg-transparent gap-y-20 text-xl lg:text-sm opacity-0 transition-all ease-in-out duration-300 lg:opacity-100 lg:pointer-events-auto pointer-events-none font-saira' style={active ? { opacity: "100%", pointerEvents: "auto" } : {}}>
+                <ul className={`items-center flex lg:relative fixed right-0 lg:w-auto lg:h-auto w-full h-full top-0 justify-center lg:justify-start flex-col lg:flex-row bg-[#111111] lg:bg-transparent gap-y-20 text-xl lg:text-sm opacity-0 transition-all ease-in-out duration-300 lg:opacity-100 lg:pointer-events-auto pointer-events-none font-saira ${scrolled ? "gap-x-12" : "gap-x-16"}`} style={active ? { opacity: "100%", pointerEvents: "auto" } : {}}>
 
                     <li className='absolute lg:hidden block text-4xl top-10 right-10'><RiCloseFill onClick={setToggle} /></li>
                     {list.map((items) => {
