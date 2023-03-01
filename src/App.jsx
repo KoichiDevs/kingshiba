@@ -27,9 +27,9 @@ const App = () => {
                 minWidth: 200.00,
                 scale: 1.00,
                 scaleMobile: 1.00,
-                showLines: false,
                 backgroundColor: 0x161616,
-
+                color1: 0xff3b00,
+                color2: 0x823838
 
             }))
         }
