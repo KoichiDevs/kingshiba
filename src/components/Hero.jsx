@@ -68,11 +68,11 @@ const Hero = () => {
                     </div>
 
                     <div className="overflow-hidden">
-                        <motion.p variants={child} className='font-poppins text-white max-w-[35rem] mt-0 text-sm md:text-lg'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</motion.p>
+                        <motion.p variants={child} className='font-poppins text-white max-w-[35rem] mt-0 text-sm md:text-lg'>King Shiba is the king of all Shibas, and Shibarium is his kingdom! With the help of the Shib Army, King Shiba will defeat the Bears, bringing peace to Shibarium and prosperity to his army.</motion.p>
                     </div>
 
                     <div className="">
-                        <motion.div  variants={child} className="mt-10 flex gap-x-4 sm:items-center sm:flex-row flex-col gap-y-4 items-start">
+                        <motion.div variants={child} className="mt-10 flex gap-x-4 sm:items-center sm:flex-row flex-col gap-y-4 items-start">
                             <button className='font-king text-myred bg-white px-10 py-4 rounded-xl shadow-glow hover:shadow-glow2 transition-all ease-in-out duration-300'>
                                 <p className='mt-[-5px] text-lg'>BUY TOKEN</p>
                             </button>

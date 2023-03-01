@@ -13,7 +13,12 @@ const Utilities = () => {
             title: "LOREM IPSUM",
             image: "/icon.webp",
             desc:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                <>
+                    <p>The Shib Army NFTs represent the community of King Shiba. What will you be? A knight, a wizard, or both? Shib Army NFTs were created by our artists with the goal of bringing King Shiba's medieval fantasy theme to reality through the blockchain.</p>
+
+                    <p className='mt-4'>Holders of Shib Army NFTs will automatically receive rewards from NFT mints and token transactions. Rewards are initially stored as BONE, which is used to buy KSHIB when rewards are claimed, and then send it to NFT holders. This creates buybacks on the King Shiba token chart and potentially multiplies the value of NFT holders' rewards!</p>
+                </>
+
         },
         {
             title: "LOREM IPSUM",
@@ -56,10 +61,10 @@ const Utilities = () => {
                 </div>
 
                 <div className=" w-fit mx-auto mt-28">
-                    <Ecoleft title="1. Lorem Ipsum" desc={utility[0].desc} img="icon" />
-                    <Ecoright title="2. Lorem Ipsum" desc={utility[1].desc} img="icon" />
+                    <Ecoleft title="1. NFTs" desc={utility[0].desc} img="icon" link=""/>
+                    {/* <Ecoright title="2. Lorem Ipsum" desc={utility[1].desc} img="icon" />
                     <Ecoleft title="3. Lorem Ipsum" desc={utility[2].desc} img="icon" />
-                    <Ecoright title="4. Lorem Ipsum" desc={utility[3].desc} img="icon" />
+                    <Ecoright title="4. Lorem Ipsum" desc={utility[3].desc} img="icon" /> */}
 
 
                 </div>

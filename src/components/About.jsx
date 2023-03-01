@@ -26,9 +26,8 @@ const About = () => {
                             <div className="w-full h-full bg-white opacity-50 absolute z-0"></div>
                             <div className="w-full h-full p-5 px-8 z-10 relative flex flex-col md:flex-row">
                                 <div className="text-center md:text-left">
-                                    <h1 className=' text-white font-king text-3xl'>Lorem Ipsum</h1>
 
-                                    <p className='text-white mt-8 md:max-w-[56%]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                    <p className='text-white mt-8 md:max-w-[56%] text-lg'><span className='font-bold'>King Shiba</span> is not just an ordinary meme coin. It aims to establish itself as the leading Shibarium project by delivering a multitude of utilities, with the goal of supporting the growth of the project, the community, Shiba Inu and the entire Shibarium.</p>
                                 </div>
 
                                 <img src="/kingchair.webp" alt="KingShiba" className="right-0 w-[22rem] -bottom-14 md:absolute relative left-0 mx-auto md:mx-0 md:left-auto" />
