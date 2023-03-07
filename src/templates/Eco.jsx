@@ -40,10 +40,10 @@ export const Ecoright = ({ title, desc, img, link }) => {
 
             <motion.div className="w-full mt-14 lg:mt-0" ref={ref} initial={{ opacity: 0 }} animate={inView ? { opacity: 100 } : {}} transition={{ duration: 0.7 }}>
                 <h3 className="text-header font-king text-right text-2xl">{title}</h3>
-                <p className="font-poppins text-right text-sm md:text-md mt-2">{desc}</p>
+                <div className="font-poppins text-right text-sm md:text-md mt-2">{desc}</div>
 
                 <a href={link} target="_blank" rel="noreferrer noopener">
-                    <button className='font-king text-white border-white border-[1px] px-7 py-3 rounded-xl hover:bg-white hover:text-myred hover:shadow-glow2 transition-all ease-in-out duration-300 mt-5'>
+                    <button className='font-king text-white border-white border-[1px] px-7 py-3 rounded-xl hover:bg-white hover:text-myred hover:shadow-glow2 transition-all ease-in-out duration-300 mt-5 block ml-auto'>
                         <p className='mt-[-5px]'>Visit website</p>
                     </button>
                 </a>

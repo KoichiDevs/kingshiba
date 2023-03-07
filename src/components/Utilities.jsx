@@ -10,8 +10,8 @@ const Utilities = () => {
 
     const utility = [
         {
-            title: "LOREM IPSUM",
-            image: "/icon.webp",
+            title: "1. NFTs",
+            image: "icon",
             desc:
                 <>
                     <p>The Shib Army NFTs represent the community of King Shiba. What will you be? A knight, a wizard, or both? Shib Army NFTs were created by our artists with the goal of bringing King Shiba's medieval fantasy theme to reality through the blockchain.</p>
@@ -21,22 +21,51 @@ const Utilities = () => {
 
         },
         {
-            title: "LOREM IPSUM",
-            image: "/icon.webp",
+            title: "2. STAKING",
+            image: "staking",
             desc:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                <>
+                    <p className="">King Shiba staking allows people to stake their tokens, locking them for a set amount of time in order to gradually receive bonus tokens. </p>
+
+                    <p className="mt-4">The amount of tokens you can stake is determined by the amount of NFTs you hold in your wallet. Having more NFTs allows holders to stake large amounts of supply!</p>
+
+                    <p className="mt-4">Owning rare NFTs allows holders to partecipate to staking pools with higher APY.</p>
+                </>
         },
         {
-            title: "LOREM IPSUM",
-            image: "/icon.webp",
+            title: "3. STAKING PARTNERS",
+            image: "bone",
             desc:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                <>
+                    <p className="">The King Shiba staking partnership program allows developers of other projects on Shibarium to freely use our advanced dApps in order to freely launch their own staking pools.
+                    </p>
+
+                    <p className="mt-4">
+                        Taking part to the staking partnership program also grants them a spotlight on their project, increasing their reach by being officially endorsed by the King Shiba team.
+                    </p>
+
+                    <p className="mt-4">
+                        In order to become staking partners, developers of projects will have to reserve a part of their token's supply, and offer it to King Shiba stakers, which will automatically receive supply of various tokens on top of KSHIB rewards, expanding the kingdom of King Shiba.
+                    </p>
+                </>
         },
         {
-            title: "LOREM IPSUM",
-            image: "/icon.webp",
+            title: "4. P2E GAME",
+            image: "P2E",
             desc:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                <>
+                    <p className="">
+                        Holders of Shib Army NFTs will also be able to partecipate to the very first P2E game on Shibarium, developed by the experienced programmers of the King Shiba team. Take part in the battle against Bears and help King Shiba in his quest to free the kingdom of Shibarium!
+                    </p>
+
+                    <p className="mt-4">
+                        Start a new game by choosing one of your NFTs and send it to explore dangerous dungeons in order to search for KSHIB token rewards. Face powerful foes in classic turn-based RPG battles, acquire experience points and increase the stats of your character to make it stronger.
+                    </p>
+
+                    <p className="mt-4">
+                        Your starting stats are determined by the traits of your NFT. Rarer NFTs start off more powerful than others!
+                    </p>
+                </>
         },
 
     ]
@@ -60,11 +89,16 @@ const Utilities = () => {
                     <div className="w-0 h-[2px] bg-header mt-8 origin-left transition-all ease-in-out duration-[1.5s]" style={lineView ? { width: "100%" } : {}}></div>
                 </div>
 
-                <div className=" w-fit mx-auto mt-28">
-                    <Ecoleft title="1. NFTs" desc={utility[0].desc} img="icon" link=""/>
-                    {/* <Ecoright title="2. Lorem Ipsum" desc={utility[1].desc} img="icon" />
-                    <Ecoleft title="3. Lorem Ipsum" desc={utility[2].desc} img="icon" />
-                    <Ecoright title="4. Lorem Ipsum" desc={utility[3].desc} img="icon" /> */}
+                <div className=" w-fit mx-auto mt-28 flex flex-col gap-y-24">
+
+                    {utility.map((items, i) => {
+                        return (
+                            i % 2 === 0 ?
+                                <Ecoleft title={items.title} desc={items.desc} img={items.image} link="" key={i}/>
+                                :
+                                <Ecoright title={items.title} desc={items.desc} img={items.image} link=""  key={i}/>
+                        )
+                    })}
 
 
                 </div>
