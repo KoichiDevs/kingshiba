@@ -20,7 +20,7 @@ export const Ecoleft = ({ title, desc, img, link }) => {
 
                 <a href={link} target="_blank" rel="noreferrer noopener">
                     <button className='font-king text-white border-white border-[1px] px-7 py-3 rounded-xl hover:bg-white hover:text-myred hover:shadow-glow2 transition-all ease-in-out duration-300 mt-5'>
-                        <p className='mt-[-5px]'>Visit website</p>
+                        <p className='mt-[-5px]'>Coming soon</p>
                     </button>
                 </a>
             </motion.div>
@@ -44,7 +44,7 @@ export const Ecoright = ({ title, desc, img, link }) => {
 
                 <a href={link} target="_blank" rel="noreferrer noopener">
                     <button className='font-king text-white border-white border-[1px] px-7 py-3 rounded-xl hover:bg-white hover:text-myred hover:shadow-glow2 transition-all ease-in-out duration-300 mt-5 block ml-auto'>
-                        <p className='mt-[-5px]'>Visit website</p>
+                        <p className='mt-[-5px]'>Coming soon</p>
                     </button>
                 </a>
 
