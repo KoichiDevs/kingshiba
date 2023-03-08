@@ -19,7 +19,7 @@ const Tokenomics = () => {
     }
 
     return (
-        <section className='w-full min-h-screen py-32 relative' id="tokenomics">
+        <section className='w-full h-auto py-32 relative' id="tokenomics">
 
             {/* <img src="/aboutline.webp" alt="Lines" className="absolute right-0 bottom-0" /> */}
 

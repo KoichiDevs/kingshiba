@@ -5,6 +5,25 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .clip-div {
+    clip-path: polygon(100% 0, 100% 85%, 80% 100%, 0 100%, 0 0);
+
+  }
+  .clip-div2 {
+    clip-path: polygon(100% 0, 100% 81.6%, 76% 100%, 0 100%, 0 0);
+  }
+
+  .clip-div3 {
+    clip-path: polygon(100% 0, 100% 0%, 65% 100%, 0 100%, 0 0);
+  }
+}
+
+.add-shad {
+}
+
+
+
 @font-face {
   font-family: 'King';
   src: url('../fonts/king.ttf');

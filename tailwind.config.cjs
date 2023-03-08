@@ -11,7 +11,8 @@ module.exports = {
             colors: {
                 header: "#FED046",
                 myred: "#4C0000",
-                darkred: '#310101'
+                darkred: '#310101',
+                hero: '#161616'
             },
             fontFamily: {
                 king: ['King'],
@@ -24,11 +25,12 @@ module.exports = {
             glow2: '0px 0px 30px 0px rgba(254,208,70,0.99)',
             glowroad: '0px 0px 80px 45px rgba(254, 208, 70, 0.4)',
             nav: '0px 85px 25px 0px rgba(1,1,1,0.79) inset',
+            team: '0px 0px 0px 10px rgba(255,255,255,1)'
             
         },
 
         dropShadow: {
-            'util': '0px 0px 66px #fed046',
+            'util': '0px 0px 30px #fed046',
         },
 
         textShadow: {

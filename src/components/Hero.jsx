@@ -74,11 +74,11 @@ const Hero = () => {
                     <div className="">
                         <motion.div variants={child} className="mt-10 flex gap-x-4 sm:items-center sm:flex-row flex-col gap-y-4 items-start">
                             <button className='font-king text-myred bg-white px-10 py-4 rounded-xl shadow-glow hover:shadow-glow2 transition-all ease-in-out duration-300'>
-                                <p className='mt-[-5px] text-lg'>BUY TOKEN</p>
+                                <p className='mt-[-5px] text-lg xl:text-2xl'>BUY TOKEN</p>
                             </button>
 
                             <button className='font-king text-white border-white border-2 px-10 py-4 rounded-xl hover:bg-white hover:text-myred hover:shadow-glow2 transition-all ease-in-out duration-300'>
-                                <p className='mt-[-5px] text-lg'>CHART</p>
+                                <p className='mt-[-5px] text-lg xl:text-2xl'>CHART</p>
                             </button>
                         </motion.div>
                     </div>
