@@ -10,7 +10,7 @@ const Utilities = () => {
 
     const utility = [
         {
-            title: "1. NFTs",
+            title: "NFTs",
             image: "icon",
             desc:
                 <>
@@ -21,7 +21,7 @@ const Utilities = () => {
 
         },
         {
-            title: "2. STAKING",
+            title: "STAKING",
             image: "staking",
             desc:
                 <>
@@ -33,7 +33,7 @@ const Utilities = () => {
                 </>
         },
         {
-            title: "3. STAKING PARTNERS",
+            title: "STAKING PARTNERS",
             image: "bone",
             desc:
                 <>
@@ -50,7 +50,7 @@ const Utilities = () => {
                 </>
         },
         {
-            title: "4. P2E GAME",
+            title: "P2E GAME",
             image: "P2E",
             desc:
                 <>
