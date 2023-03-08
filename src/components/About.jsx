@@ -23,14 +23,24 @@ const About = () => {
 
                         <motion.div initial={{ opacity: 0 }} animate={inView ? { scale: [0.5, 1], opacity: 100 } : {}} transition={{ duration: 0.7 }} className="relative w-full h-auto min-h-[22rem] font-poppins" ref={ref}>
                             <div className="w-full h-full bg-white opacity-50 absolute z-0"></div>
-                            <div className="w-full h-full p-5 px-8 z-10 relative flex flex-col md:flex-row">
+                            <div className="w-full h-full p-5 px-8 z-10 relative flex flex-col">
                                 <div className="text-center md:text-left">
 
                                     <p className='text-white mt-8 md:max-w-[56%] text-lg'><span className='font-bold'>King Shiba</span> is not just an ordinary meme coin. It aims to establish itself as the leading Shibarium project by delivering a multitude of utilities, with the goal of supporting the growth of the project, the community, Shiba Inu and the entire Shibarium.</p>
                                 </div>
 
+                                <div className="w-full flex items-center mt-7 md:justify-start justify-center">
+                                    <a href="" target="_blank" rel="noopener noreferrer" className="">
+                                        <button className='font-king text-myred bg-white px-10 py-4 rounded-xl shadow-glow hover:shadow-glow2 transition-all ease-in-out duration-300'>
+                                            <p className='mt-[-5px] text-lg xl:text-xl'>WHITEPAPER</p>
+                                        </button>
+                                    </a>
+                                </div>
+
                                 <img src="/kingchair.webp" alt="KingShiba" className="right-0 w-[22rem] -bottom-14 md:absolute relative left-0 mx-auto md:mx-0 md:left-auto" />
                             </div>
+
+
                         </motion.div>
 
 
