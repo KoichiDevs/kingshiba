@@ -97,6 +97,14 @@ const Roadmap = () => {
                     })}
 
                 </div>
+
+                <div className="w-full flex justify-center items-center mt-[8rem]">
+                    <a href="" target="_blank" rel="noopener noreferrer" className="">
+                        <button className='font-king text-myred bg-white px-10 py-4 rounded-xl shadow-glow hover:shadow-glow2 transition-all ease-in-out duration-300'>
+                            <p className='mt-[-5px] text-lg xl:text-2xl'>WHITEPAPER</p>
+                        </button>
+                    </a>
+                </div>
             </div>
         </section>
     )
