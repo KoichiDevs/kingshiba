@@ -64,9 +64,9 @@ const Roadmap = () => {
         },
         {
             pos: 'Site Listings',
-            name: '0xDead',
+            name: 'Lord JC',
             img: '0x',
-            link: 'https://t.me/ledlrr'
+            link: 'https://t.me/lordjc203'
         },
 
 
