@@ -24,7 +24,7 @@ const Footer = () => {
 
             </div>
 
-            <p className='text-center absolute mx-auto left-0 right-0 bottom-4 text-xs font-poppins'>COPYRIGHT KINGSHIBA. 2023. ALL RIGHT RESERVED</p>
+            <p className='text-center absolute mx-auto left-0 right-0 bottom-4 text-xs font-poppins'>COPYRIGHT SHIBKING. 2023. ALL RIGHT RESERVED</p>
 
         </section>
     )

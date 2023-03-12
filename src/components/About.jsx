@@ -11,7 +11,7 @@ const About = () => {
             {/* <img src="/aboutline.webp" alt="lines" className="absolute bottom-0 right-0" /> */}
             <div className="max-w-[1500px] w-full mx-auto mt-32 px-8">
                 <div className="font-king text-center md:w-[80%] w-[70%] mx-auto ">
-                    <h2 className='uppercase text-white md:text-xl text-lg sm:-mb-3'>About Kingshiba</h2>
+                    <h2 className='uppercase text-white md:text-xl text-lg sm:-mb-3'>About ShibKing</h2>
                     <div className="uppercase text-header lg:text-8xl md:text-7xl text-5xl flex items-center md:gap-x-10 gap-x-3 mx-auto w-fit">
                         <img src="/crowngif.gif" alt="crown" className="md:h-20 h-10 m:mt-8 mt-4 sm:block hidden" />
                         <motion.p initial={{ scale: 0.5 }} whileInView={{ scale: 1 }} transition={{ duration: 0.5, delay: 0.2, type: "spring", stiffness: 200 }} className='text-shadow-tshad'>KINGSHIBA</motion.p>
@@ -26,7 +26,7 @@ const About = () => {
                             <div className="w-full h-full p-5 px-8 z-10 relative flex flex-col">
                                 <div className="text-center md:text-left">
 
-                                    <p className='text-white mt-8 md:max-w-[56%] text-lg'><span className='font-bold'>King Shiba</span> is not just an ordinary meme coin. It aims to establish itself as the leading Shibarium project by delivering a multitude of utilities, with the goal of supporting the growth of the project, the community, Shiba Inu and the entire Shibarium.</p>
+                                    <p className='text-white mt-8 md:max-w-[56%] text-lg'><span className='font-bold'>Shib King</span> is not just an ordinary meme coin. It aims to establish itself as the leading Shibarium project by delivering a multitude of utilities, with the goal of supporting the growth of the project, the community, Shiba Inu and the entire Shibarium.</p>
                                 </div>
 
                                 <div className="w-full flex items-center mt-7 md:justify-start justify-center">

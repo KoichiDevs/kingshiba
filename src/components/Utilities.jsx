@@ -14,9 +14,9 @@ const Utilities = () => {
             image: "icon",
             desc:
                 <>
-                    <p>The Shib Army NFTs represent the community of King Shiba. What will you be? A knight, a wizard, or both? Shib Army NFTs were created by our artists with the goal of bringing King Shiba's medieval fantasy theme to reality through the blockchain.</p>
+                    <p>The Shib Army NFTs represent the community of Shib King. What will you be? A knight, a wizard, or both? Shib Army NFTs were created by our artists with the goal of bringing Shib King's medieval fantasy theme to reality through the blockchain.</p>
 
-                    <p className='mt-4'>Holders of Shib Army NFTs will automatically receive rewards from NFT mints and token transactions. Rewards are initially stored as BONE, which is used to buy KSHIB when rewards are claimed, and then send it to NFT holders. This creates buybacks on the King Shiba token chart and potentially multiplies the value of NFT holders' rewards!</p>
+                    <p className='mt-4'>Holders of Shib Army NFTs will automatically receive rewards from NFT mints and token transactions. Rewards are initially stored as BONE, which is used to buy KSHIB when rewards are claimed, and then send it to NFT holders. This creates buybacks on the Shib King token chart and potentially multiplies the value of NFT holders' rewards!</p>
                 </>
 
         },
@@ -25,7 +25,7 @@ const Utilities = () => {
             image: "staking",
             desc:
                 <>
-                    <p className="">King Shiba staking allows people to stake their tokens, locking them for a set amount of time in order to gradually receive bonus tokens. </p>
+                    <p className="">Shib King staking allows people to stake their tokens, locking them for a set amount of time in order to gradually receive bonus tokens. </p>
 
                     <p className="mt-4">The amount of tokens you can stake is determined by the amount of NFTs you hold in your wallet. Having more NFTs allows holders to stake large amounts of supply!</p>
 
@@ -37,15 +37,15 @@ const Utilities = () => {
             image: "bone",
             desc:
                 <>
-                    <p className="">The King Shiba staking partnership program allows developers of other projects on Shibarium to freely use our advanced dApps in order to freely launch their own staking pools.
+                    <p className="">The Shib King staking partnership program allows developers of other projects on Shibarium to freely use our advanced dApps in order to freely launch their own staking pools.
                     </p>
 
                     <p className="mt-4">
-                        Taking part to the staking partnership program also grants them a spotlight on their project, increasing their reach by being officially endorsed by the King Shiba team.
+                        Taking part to the staking partnership program also grants them a spotlight on their project, increasing their reach by being officially endorsed by the Shib King team.
                     </p>
 
                     <p className="mt-4">
-                        In order to become staking partners, developers of projects will have to reserve a part of their token's supply, and offer it to King Shiba stakers, which will automatically receive supply of various tokens on top of KSHIB rewards, expanding the kingdom of King Shiba.
+                        In order to become staking partners, developers of projects will have to reserve a part of their token's supply, and offer it to Shib King stakers, which will automatically receive supply of various tokens on top of KSHIB rewards, expanding the kingdom of Shib King.
                     </p>
                 </>
         },
@@ -55,7 +55,7 @@ const Utilities = () => {
             desc:
                 <>
                     <p className="">
-                        Holders of Shib Army NFTs will also be able to partecipate to the very first P2E game on Shibarium, developed by the experienced programmers of the King Shiba team. Take part in the battle against Bears and help King Shiba in his quest to free the kingdom of Shibarium!
+                        Holders of Shib Army NFTs will also be able to partecipate to the very first P2E game on Shibarium, developed by the experienced programmers of the Shib King team. Take part in the battle against Bears and help Shib King in his quest to free the kingdom of Shibarium!
                     </p>
 
                     <p className="mt-4">
