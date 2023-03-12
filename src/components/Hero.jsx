@@ -62,13 +62,13 @@ const Hero = () => {
                 <motion.div variants={variant} initial="initial" animate="animate" className="w-full h-full relative z-[11]">
                     <div className="overflow-hidden">
                         <motion.div variants={child} className="flex xl:gap-x-10 gap-x-7">
-                            <h1 className='text-header xl:text-8xl md:text-7xl text-5xl font-king'>KING SHIBA</h1>
+                            <h1 className='text-header xl:text-8xl md:text-7xl text-5xl font-king'>SHIB KIKNG</h1>
                             <GiBroadsword className='xl:text-9xl md:text-8xl text-6xl text-header rotate-45' />
                         </motion.div>
                     </div>
 
                     <div className="overflow-hidden">
-                        <motion.p variants={child} className='font-poppins text-white max-w-[35rem] mt-0 text-sm md:text-lg'>King Shiba is the king of all Shibas, and Shibarium is his kingdom! With the help of the Shib Army, King Shiba will defeat the Bears, bringing peace to Shibarium and prosperity to his army.</motion.p>
+                        <motion.p variants={child} className='font-poppins text-white max-w-[35rem] mt-0 text-sm md:text-lg'>Shib King is the king of all Shibas, and Shibarium is his kingdom! With the help of the Shib Army, Shib King will defeat the Bears, bringing peace to Shibarium and prosperity to his army.</motion.p>
                     </div>
 
                     <div className="">
